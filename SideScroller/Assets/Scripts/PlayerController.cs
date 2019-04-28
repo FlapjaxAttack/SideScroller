@@ -9,18 +9,38 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D Playerrigidbody;
 
+
+    public bool grounded;
+    public LayerMask groundIdentifier;
+
+    private Collider2D playerCollider;
+
+    private Animator playerAnimator;
+
     void Start()
     {
         Playerrigidbody = GetComponent<Rigidbody2D>();
+
+        playerCollider = GetComponent<Collider2D>();
+
+        playerAnimator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        Playerrigidbody.velocity = new Vector2(moveSpeed, Playerrigidbody.velocity.y);
+	    grounded = Physics2D.IsTouchingLayers(playerCollider, groundIdentifier);
+        
+	    Playerrigidbody.velocity = new Vector2(moveSpeed, Playerrigidbody.velocity.y);
 	
 	if(Input.GetKeyDown(KeyCode.Space))
 	{
-	     Playerrigidbody.velocity = new Vector2(Playerrigidbody.velocity.x, jumpForce);
+		if(grounded)
+		{
+			Playerrigidbody.velocity = new Vector2(Playerrigidbody.velocity.x, jumpForce);
+		}
 	}
+	
+	playerAnimator.SetFloat("Speed", Playerrigidbody.velocity.x);
+	playerAnimator.SetBool("Grounded", grounded);
     }
 }
