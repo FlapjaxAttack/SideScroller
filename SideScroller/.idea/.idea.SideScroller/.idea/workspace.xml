@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -64,26 +64,102 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoadGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="73" />
+              <folding>
+                <marker date="1556424894184" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556424894184" expanded="true" signature="122:588" ph="{...}" />
+                <marker date="1556424894184" expanded="true" signature="245:266" ph="{...}" />
+                <marker date="1556424894184" expanded="true" signature="286:586" ph="{...}" />
+                <marker date="1556424894184" expanded="true" signature="355:580" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding>
+                <marker date="1556523437460" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556523437460" expanded="true" signature="121:915" ph="{...}" />
+                <marker date="1556523437460" expanded="true" signature="250:517" ph="{...}" />
+                <marker date="1556523437460" expanded="true" signature="352:511" ph="{...}" />
+                <marker date="1556523437460" expanded="true" signature="559:913" ph="{...}" />
+                <marker date="1556523437460" expanded="true" signature="619:760" ph="{...}" />
+                <marker date="1556523437460" expanded="true" signature="681:750" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <marker date="1556527160646" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556527160646" expanded="true" signature="129:1321" ph="{...}" />
+                <marker date="1556527160646" expanded="true" signature="467:546" ph="{...}" />
+                <marker date="1556527160646" expanded="true" signature="566:1319" ph="{...}" />
+                <marker date="1556527160646" expanded="true" signature="635:1313" ph="{...}" />
+                <marker date="1556527160646" expanded="true" signature="1064:1303" ph="/* GameObject newDebris = theObjectPool.GetPooledObject(); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoadDestroyer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <marker date="1556488354160" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556488354160" expanded="true" signature="122:459" ph="{...}" />
+                <marker date="1556488354160" expanded="true" signature="182:260" ph="{...}" />
+                <marker date="1556488354160" expanded="true" signature="318:457" ph="{...}" />
+                <marker date="1556488354160" expanded="true" signature="398:451" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RoadDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RoadGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RoadDestroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerupGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentGenerator.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="838" />
-    <option name="y" value="157" />
+    <option name="x" value="186" />
+    <option name="y" value="28" />
     <option name="width" value="1133" />
     <option name="height" value="970" />
   </component>
@@ -147,12 +223,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556388136275</updated>
-      <workItem from="1556388166272" duration="4518000" />
+      <workItem from="1556388166272" duration="14998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4518000" />
+    <option name="totallyTimeSpent" value="14998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -164,7 +240,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="838" y="157" width="1133" height="970" extended-state="0" />
+    <frame x="186" y="28" width="1133" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -238,6 +314,72 @@
             <marker date="1556415030218" expanded="true" signature="125:736" ph="{...}" />
             <marker date="1556415030218" expanded="true" signature="270:403" ph="{...}" />
             <marker date="1556415030218" expanded="true" signature="427:734" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoadDestroyer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <marker date="1556488354160" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556488354160" expanded="true" signature="122:459" ph="{...}" />
+            <marker date="1556488354160" expanded="true" signature="182:260" ph="{...}" />
+            <marker date="1556488354160" expanded="true" signature="318:457" ph="{...}" />
+            <marker date="1556488354160" expanded="true" signature="398:451" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerupGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <marker date="1556523437460" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556523437460" expanded="true" signature="121:915" ph="{...}" />
+            <marker date="1556523437460" expanded="true" signature="250:517" ph="{...}" />
+            <marker date="1556523437460" expanded="true" signature="352:511" ph="{...}" />
+            <marker date="1556523437460" expanded="true" signature="559:913" ph="{...}" />
+            <marker date="1556523437460" expanded="true" signature="619:760" ph="{...}" />
+            <marker date="1556523437460" expanded="true" signature="681:750" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RoadGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <marker date="1556424894184" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556424894184" expanded="true" signature="122:588" ph="{...}" />
+            <marker date="1556424894184" expanded="true" signature="245:266" ph="{...}" />
+            <marker date="1556424894184" expanded="true" signature="286:586" ph="{...}" />
+            <marker date="1556424894184" expanded="true" signature="355:580" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1556527160646" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556527160646" expanded="true" signature="129:1321" ph="{...}" />
+            <marker date="1556527160646" expanded="true" signature="467:546" ph="{...}" />
+            <marker date="1556527160646" expanded="true" signature="566:1319" ph="{...}" />
+            <marker date="1556527160646" expanded="true" signature="635:1313" ph="{...}" />
+            <marker date="1556527160646" expanded="true" signature="1064:1303" ph="/* GameObject newDebris = theObjectPool.GetPooledObject(); ... */" />
           </folding>
         </state>
       </provider>
