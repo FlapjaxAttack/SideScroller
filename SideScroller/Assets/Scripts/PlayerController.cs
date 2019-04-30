@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
 
     private Animator playerAnimator;
 
+    public GameManagement theGameBoss;
+
     void Start()
     {
         Playerrigidbody = GetComponent<Rigidbody2D>();

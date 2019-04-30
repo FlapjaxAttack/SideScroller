@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerKill : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameManagement gameBoss;
     void Start()
     {
-        
+        gameBoss = FindObjectOfType<GameManagement>();
     }
 
     // Update is called once per frame
@@ -15,4 +15,6 @@ public class PlayerKill : MonoBehaviour
     {
         
     }
+    
+    void OnTr
 }
